@@ -1,0 +1,117 @@
+body {
+    background:top center no-repeat;
+    background-image:url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Mauritania_%28orthographic_projection%29.svg/1920px-Mauritania_%28orthographic_projection%29.svg.png);
+  }
+.navbar ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+.navbar a{
+    color: #081c15;
+    text-decoration: none;
+    padding: 5px 20px;
+    display: flexbox;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: #2d6a4f;
+}
+.navbar li{
+    float: left;
+}
+.box{
+    display: flex;
+    border: 1px #081c15 solid;
+}
+#box1{
+    background: radial-gradient(#d8f3dc, #2d6a4f);
+    margin:auto;
+    border: 1px #081c15 solid;
+    height: 300px;
+    width: 1000px;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    justify-content: center;
+    color: #081c15;
+}
+#box2 {
+    display:flexbox;
+    border: 2px #081c15 solid;
+    width: 300px;
+    margin: 10px;
+    background: radial-gradient(#d8f3dc, #2d6a4f);
+    text-align: center;
+    justify-content: center;
+    transition: background-color 2s ease-out;
+}
+#box2:hover {
+    background-color: #2d6a4f;
+    cursor: pointer;
+}
+#box2  td{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    justify-content: center;
+}
+#box2 img{
+    transition: all 2s ease-out;
+}
+#box2 img:hover{
+    height: 200px;
+    width: 200px;
+}
+#section2{
+    margin: 50px;
+    padding: 50px;
+    text-align:justify;
+}
+b{
+    color: #d8f3dc;
+}
+.br{
+    background: radial-gradient(#d8f3dc, #2d6a4f);
+    margin: 50px;
+    padding: 20px;
+    justify-content: center;
+}
+.gallery{
+    display:inline-block;
+    border: 1px #081c15 solid;
+    margin: 0px;
+    width: 400px;
+}
+.gallery .note{
+    padding: 40px;
+    text-align: center;
+    background: radial-gradient(#d8f3dc, #2d6a4f);
+}
+.gallery:hover{
+    border: 2px #081c15 solid;
+}
+.gallery img{
+    justify-items: center;
+    width: 400px;
+    height: auto;
+}
+.carousel-indicators{
+    justify-items: center;
+    width: 800px;
+    height: 600px;
+}
+.carousel-item{
+    justify-items: center;
+    width: 800px;
+    height: 600px;
+}
+.carousel-item h3, h4{
+    background: radial-gradient(#d8f3dc, #2d6a4f);
+    color: #081c15;
+}
+.br img{
+    width: 200px;
+    height: 150px;
+}

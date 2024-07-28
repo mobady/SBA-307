@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <style>
+        .dropdown button{ background-color: #52b788;border: 1px #081c15 solid;cursor:pointer; width: 200px;padding: 10px 15px; border-radius: 10% 0% 0% 0%;}
+        .dropdown a{ display: block; text-decoration: none; color: #081c15; padding: 10px 15px;}
+        .dropdown .con-menu{display: none;; position: absolute; background-color:#52b788;min-width: 200px;box-shadow: 10px 15px 25px #52b788;border-radius: 0% 0% 10% 10%;}
+        .dropdown:hover .con-menu{display: block; border-radius: 10% 10% 0% 0%;}
+        .dropdown a:hover {background: radial-gradient(#d8f3dc, #2d6a4f);}
+        .dropdown button:hover{background: radial-gradient(#d8f3dc, #2d6a4f);}
+    </style>
+    <title>Gallery</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <div class="section" id="section1">
+        <table>
+            <tr>
+            <td>
+    <div class="dropdown">
+        <button>MENU</button>
+        <div class="con-menu">
+            <a href="./index.html">Home</a><a href="./states.html">States</a><a href="./gallery.html">Gallery</a>
+        </div>
+    </div></td>
+    <td 
+    style="background-color:#52b788;border: 1px #081c15 solid;cursor:pointer; min-width: 100vw;height: 15px;; padding: 0px; border-radius: 10% 10% 0% 0%;">
+    <nav class="navbar">
+        <ul>
+            <li><a href="https://www.google.com/search?sca_esv=70be1922dd9c2f41&sca_upv=1&sxsrf=ADLYWILbw-KcZUQ5UjysT1pfD45FYfKrOw:1722061063933&q=mauritania&tbm=nws&source=lnms&fbs=AEQNm0CiFqa26y-564csno-VFX61n06nbvQGPZxAS1Jo_DDnZej9empSlujVcm1-IP9Vmy9FUmMaki4hm12nUX-qrgC5VgwFIUwy5tqsprhMrQvBRD7SgtOVkzQzDRkYmxD1R6W38vWbdy1s-gXMCpX7wYJZOVl3h2GBW3eNdw0OtU5tHcHTfZrV0nWjTjQqJXbykLHLAbx-kvJv2ZoLWK0SkDw8LeQ1Kt29A2KG8aCh0-dHHJZpeSEZqcw5Q0NwaGr1EBUrn2L1&sa=X&ved=2ahUKEwjV8_yvycaHAxU6l4kEHalhCGUQ0pQJegQIChAB&biw=1680&bih=963&dpr=2">NEWS</a></li>
+            <li><a href="./about.html">ABOUT</a></li>
+            <li><input type="search" id="search" placeholder="search"></li>
+        </ul>
+        </nav></td></tr>
+    </table>
+    </div>
+    <div class="box" id="box1">
+        <h1  style="text-align: center; text-decoration: double underline ; justify-items: center; padding: 20px; font-size: 60px;font-family: Verdana, Geneva, Tahoma, sans-serif;">Gallery
+        </h1>
+        </div>
+        <div class="box" id="box2"></div>
+    <div class="gallery" >
+        <a href="https://globaljetcentre.com/wp-content/uploads/2023/08/Nouakchott-558x601-1.jpg" target="_parent">
+            <img src="https://globaljetcentre.com/wp-content/uploads/2023/08/Nouakchott-558x601-1.jpg" alt="Medina mosque in Nouakchott">
+        </a>
+        <div class="note">Medina mosque in Nouakchott</div>
+    </div>
+    <div class="gallery" >
+        <a href="https://64.media.tumblr.com/b41c105246d4cf607f695677cd8904f8/b7565b89230675b8-ab/s1280x1920/7e77bff3544068634445e5e76b8b4e71c438f0be.jpg" target="_parent">
+            <img src="https://64.media.tumblr.com/b41c105246d4cf607f695677cd8904f8/b7565b89230675b8-ab/s1280x1920/7e77bff3544068634445e5e76b8b4e71c438f0be.jpg" alt="Oualata, Mauritania">
+        </a>
+        <div class="note">Oualata, Mauritania</div>
+    </div> 
+    <div class="gallery" >
+        <a href="https://img.atlasobscura.com/dzp5zCiHT6QiDwZfYUTcGfGpuvCD4NTZoANAhZ2G-LY/rt:fit/w:1200/q:81/sm:1/scp:1/ar:1/aHR0cHM6Ly9hdGxh/cy1kZXYuczMuYW1h/em9uYXdzLmNvbS91/cGxvYWRzL3BsYWNl/X2ltYWdlcy8yN2U3/MmZjOTVhZTk2OGRl/YmFfTWF1cml0YW5p/YV8tX0d1ZWxiX2Vy/X1JpY2hhdF8oNTM4/NzgwMjg5KS5qcGc.jpg" target="_parent">
+            <img src="https://img.atlasobscura.com/dzp5zCiHT6QiDwZfYUTcGfGpuvCD4NTZoANAhZ2G-LY/rt:fit/w:1200/q:81/sm:1/scp:1/ar:1/aHR0cHM6Ly9hdGxh/cy1kZXYuczMuYW1h/em9uYXdzLmNvbS91/cGxvYWRzL3BsYWNl/X2ltYWdlcy8yN2U3/MmZjOTVhZTk2OGRl/YmFfTWF1cml0YW5p/YV8tX0d1ZWxiX2Vy/X1JpY2hhdF8oNTM4/NzgwMjg5KS5qcGc.jpg" alt="Richat Structure – Mauritania - Atlas Obscura">
+        </a>
+        <div class="note">Richat Structure – Mauritania - Atlas Obscura</div>
+    </div>
+    <div class="gallery" >
+        <a href="https://imageio.forbes.com/specials-images/dam/imageserve/170282702/960x0.jpg?format=jpg&width=1440" target="_parent">
+            <img src="https://imageio.forbes.com/specials-images/dam/imageserve/170282702/960x0.jpg?format=jpg&width=1440" alt="MAURITANIA - CIRCA 2003: Sand dunes, Nbeika, Sahara Desert, Mauritania.">
+        </a>
+        <div class="note">MAURITANIA - CIRCA 2003: Sand dunes, Nbeika, Sahara Desert, Mauritania.</div>
+    </div>
+    <div class="gallery" >
+        <a href="https://img.atlasobscura.com/x4S6J1VP__iKecszyZH-rK8D0g5NAyj70rYxitl0JJU/rt:fit/w:1200/q:81/sm:1/scp:1/ar:1/aHR0cHM6Ly9hdGxh/cy1kZXYuczMuYW1h/em9uYXdzLmNvbS91/cGxvYWRzL3BsYWNl/X2ltYWdlcy8yMmQ0/OWNlOTc5OGIwMGU4/Y2JfODYwMDk5MTY2/N185NDE2Zjk3MzNi/X3ouanBn.jpg" target="_parent">
+            <img src="https://img.atlasobscura.com/x4S6J1VP__iKecszyZH-rK8D0g5NAyj70rYxitl0JJU/rt:fit/w:1200/q:81/sm:1/scp:1/ar:1/aHR0cHM6Ly9hdGxh/cy1kZXYuczMuYW1h/em9uYXdzLmNvbS91/cGxvYWRzL3BsYWNl/X2ltYWdlcy8yMmQ0/OWNlOTc5OGIwMGU4/Y2JfODYwMDk5MTY2/N185NDE2Zjk3MzNi/X3ouanBn.jpg" alt="Bay of Nouadhibou Ship Graveyard">
+        </a>
+        <div class="note">Bay of Nouadhibou Ship Graveyard</div>
+    </div>
+    <div class="gallery" >
+        <a href="https://scontent-iad3-1.xx.fbcdn.net/v/t1.6435-9/84841755_10158009843760120_1589833035681890304_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=13d280&_nc_ohc=dhS_lXQxMe0Q7kNvgHei5P1&_nc_ht=scontent-iad3-1.xx&oh=00_AYAAF1XuKYgN_5PVAAbaIZYlJmfjK402DxE_mmWphFFGPA&oe=66CC135A" target="_parent">
+            <img src="https://scontent-iad3-1.xx.fbcdn.net/v/t1.6435-9/84841755_10158009843760120_1589833035681890304_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=13d280&_nc_ohc=dhS_lXQxMe0Q7kNvgHei5P1&_nc_ht=scontent-iad3-1.xx&oh=00_AYAAF1XuKYgN_5PVAAbaIZYlJmfjK402DxE_mmWphFFGPA&oe=66CC135A" alt="Beechi Nouakchott port">
+        </a>
+        <div class="note">Beechi Nouakchott port</div>
+    </div>
+    <div class="gallery" >
+        <a href="https://c7.alamy.com/compfr/2j12320/ruisseau-parmi-les-palmiers-dans-l-oasis-de-terjit-region-d-adrar-mauritanie-2j12320.jpg" target="_parent">
+            <img src="https://c7.alamy.com/compfr/2j12320/ruisseau-parmi-les-palmiers-dans-l-oasis-de-terjit-region-d-adrar-mauritanie-2j12320.jpg" alt="l'oasis de Terjit, région d'Adrar, Mauritanie">
+        </a>
+        <div class="note">l'oasis de Terjit, région d'Adrar, Mauritanie</div>
+    </div>
+    <div class="gallery" >
+        <a href="https://whc.unesco.org/uploads/thumbs/activity_906-1600-650-20190612110149.jpg" target="_parent">
+            <img src="https://whc.unesco.org/uploads/thumbs/activity_906-1600-650-20190612110149.jpg" alt="Parc National du Banc d’Arguin">
+        </a>
+        <div class="note">Parc National du Banc d’Arguin</div>
+    </div>
+    <div class="gallery" >
+        <a href="https://www.kanaga-at.com/wp-content/uploads/2021/08/Mauritania-Mariangela-Maffei-1.jpg" target="_parent">
+            <img src="https://www.kanaga-at.com/wp-content/uploads/2021/08/Mauritania-Mariangela-Maffei-1.jpg" alt="Mariangela Maffei">
+        </a>
+        <div class="note">Mariangela Maffei</div>
+    </div>
+    <div class="gallery" >
+        <a href="https://www.kanaga-at.com/wp-content/uploads/2021/07/LRM_EXPORT_38319067550013_20200106_003750295.jpg" target="_parent">
+            <img src="https://www.kanaga-at.com/wp-content/uploads/2021/07/LRM_EXPORT_38319067550013_20200106_003750295.jpg" alt=" M. Santoro">
+        </a>
+        <div class="note"> M. Santoro</div>
+    </div>
+    <div class="gallery" >
+        <a href="https://www.kanaga-at.com/wp-content/uploads/2022/10/007-Banc-dArguin-Mauritania-foto-di-Anna-Alberghina.jpg" target="_parent">
+            <img src="https://www.kanaga-at.com/wp-content/uploads/2022/10/007-Banc-dArguin-Mauritania-foto-di-Anna-Alberghina.jpg" alt="A. Alberghina">
+        </a>
+        <div class="note">A. Alberghina</div>
+    </div>
+    <div class="gallery" >
+        <a href="https://www.kanaga-at.com/wp-content/uploads/2011/12/Mauritania-Nouachott-Elio-Tomasoni.jpg" target="_parent">
+            <img src="https://www.kanaga-at.com/wp-content/uploads/2011/12/Mauritania-Nouachott-Elio-Tomasoni.jpg" alt="E. Tomasoni">
+        </a>
+        <div class="note">E. Tomasoni</div>
+    </div>
+    <div class="gallery" >
+        <a href="https://www.kapitalafrik.com/wp-content/uploads/2020/11/Pont-de-Rosso-suite-et-Photo.jpeg" target="_parent">
+            <img src="https://www.kapitalafrik.com/wp-content/uploads/2020/11/Pont-de-Rosso-suite-et-Photo.jpeg" alt="Mauritania-Senegal: Poly Changda to build Rosso bridge">
+        </a>
+        <div class="note">Mauritania-Senegal: Poly Changda to build Rosso bridge</div>
+    </div>
+    <div class="gallery" >
+        <a href="https://th-thumbnailer.cdn-si-edu.com/8z2VEQk05s-XU8w33oTUAA7ma20=/fit-in/1072x0/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer/Chinguetti-Mauritania-2.jpg" target="_parent">
+            <img src="https://th-thumbnailer.cdn-si-edu.com/8z2VEQk05s-XU8w33oTUAA7ma20=/fit-in/1072x0/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer/Chinguetti-Mauritania-2.jpg" alt="Mosque at Chinguetti, Mauritania.">
+        </a>
+        <div class="note">Mosque at Chinguetti, Mauritania</div>
+    </div>
+    <div class="gallery" >
+        <a href="https://th-thumbnailer.cdn-si-edu.com/vhm3rNSXCvo4_154QUw7uyO3KqA=/fit-in/1072x0/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer/Chinguetti-Mauritania-6.jpg" target="_parent">
+            <img src="https://th-thumbnailer.cdn-si-edu.com/vhm3rNSXCvo4_154QUw7uyO3KqA=/fit-in/1072x0/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer/Chinguetti-Mauritania-6.jpg" alt="Mohamed Mahmoud, curator of the Al-Hamoni family library in Chinguetti, Mauritania, reading Koranic texts.">
+        </a>
+        <div class="note">Mohamed Mahmoud, curator of the Al-Hamoni family library in Chinguetti, Mauritania, reading Koranic texts</div>
+    </div>
+    <div class="gallery" >
+        <a href="https://th-thumbnailer.cdn-si-edu.com/XUtjGKKef0qIxISOH59jXyen_3k=/1000x750/filters:no_upscale()/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer/Chinguetti-Mauritania-631.jpg" target="_parent">
+            <img src="https://th-thumbnailer.cdn-si-edu.com/XUtjGKKef0qIxISOH59jXyen_3k=/1000x750/filters:no_upscale()/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer/Chinguetti-Mauritania-631.jpg" alt="Mohamed Mahmoud on the roof of his Al-Hamoni family library, of which he is curator, in Chinguetti, Mauritania">
+        </a>
+        <div class="note">Mohamed Mahmoud on the roof of his Al-Hamoni family library, of which he is curator, in Chinguetti, Mauritania</div>
+    </div>
+</div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
